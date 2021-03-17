@@ -1,0 +1,74 @@
+body{
+	margin: 0;
+	padding:0;
+	background-color: darkslategray;
+	
+}
+.form {
+  width: 300px;
+  height: 200px;
+  background:  gainsboro;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  from {background-color:  gainsboro;}
+  to {background-color: darkolivegreen;}
+
+}
+.form{
+	width: 400px;
+	height: 300px;
+	color: #000;
+	top: 50%;
+	left: 50%;
+	padding: 60px 40px;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-shadow: 6px 5px 50px white;	
+	border : 2px solid gainsboro;
+	 border-radius:30px;
+}
+.form input{
+	margin-top: 20px;
+	width: 100%;
+	margin-bottom: 20px;
+
+}
+.form input[type=text], .form input[type=password]{
+	border: none;
+	border-bottom:  2px solid gainsboro;
+	background: transparent;
+	outline: none;
+	height: 30px;
+	font-size: 16px;
+	opacity: 1;
+	color: #ccc;
+
+}
+::-webkit-input-placeholder { 
+  color:darkslategray ;
+  font-size: 18px;
+}
+h1{
+	color: darkslategray;
+	text-align: center;
+	font-size: 30px;
+	text-shadow: 5px 4px 5px white;	
+}
+.form input[type=submit]{
+	border: none;
+	outline: none;
+	height: 40px;
+	background:darkslategray ;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	opacity: 0.8;
+	text-align: center;
+	box-shadow: 8px 8px 50px white;	
+	border : 1px solid gainsboro;
+	 border-radius:30px;
+
+} 
+
